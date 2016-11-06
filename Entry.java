@@ -1,12 +1,7 @@
-
-/**
- *
- * @author Lachlan
- */
 public class Entry<K extends Comparable<K>,V> {
     K key;
     V value;
-    
+
     /**
     * Returns the key stored in this entry.
     * @return the entry's key
@@ -22,10 +17,10 @@ public class Entry<K extends Comparable<K>,V> {
     V getValue(){
         return value;
     }
-    
+
     public Entry(K k, V v){
         key = k;
         value = v;
     }
-    
+
 }

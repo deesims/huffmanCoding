@@ -21,13 +21,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-/**
- * Interface for the priority queue ADT.
- *
- * @author Michael T. Goodrich
- * @author Roberto Tamassia
- * @author Michael H. Goldwasser
- */
 public interface PriorityQueue<K extends Comparable<K>,V> {
 
   /**
