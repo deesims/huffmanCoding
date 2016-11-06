@@ -8,10 +8,10 @@ public class TestHuffmanWithStrings {
 		LetterFrequencies fq;
 
 		String [] textsToTest = { // add more strings to create more test cases
-				"AACGTAAATAATGAAC",
-				"Hey,this is my second test!",
-				"I AM SAM, SAM I AM. THAT SAM I AM,THAT SAM I AM, I DO NOT LIKE THAT SAM I AM",
-				"This is the third test...isn't it nice !",
+				"ABCDEFGHIJKLMNOPQRSTUVWXYZ.,!@#$%^&*()1234567890-=",
+				"Does a man know what a man's dream is ?",
+				"Foobar went to a bar and ordered a foobar !",
+				"@mississippi wanted to know what your # is ?",
 				"And last test...1234...any string should work"
 		};
 
